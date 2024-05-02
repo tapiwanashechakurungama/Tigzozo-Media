@@ -637,7 +637,54 @@ body{
 }
 
 // footer
-
+.footer{
+  background-color: purple;
+  padding: 4%;
+  margin-top: 3%;
+  color: white;
+  .wow{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+     .shit{
+        width: 8rem;
+        height: 4rem;
+      }
+    .images{
+      display: flex;
+      gap: 30px;
+     
+    }
+    p{
+      font-size: 1.3rem;
+    }
+  }
+  .hey{
+   margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    h4{
+      font-size: 2rem;
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+  }
+  .how{
+    margin-top: 10px;
+    h4{
+      text-decoration: underline;
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+  }
+  .why{margin-top: 10px;
+    h4{
+      text-decoration: underline;
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+  }
+}
 
 // media queries
 

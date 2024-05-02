@@ -519,6 +519,55 @@ body {
   margin-top: 10vh;
 }
 
+.footer {
+  background-color: purple;
+  padding: 4%;
+  margin-top: 3%;
+  color: white;
+}
+.footer .wow {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer .wow .shit {
+  width: 8rem;
+  height: 4rem;
+}
+.footer .wow .images {
+  display: flex;
+  gap: 30px;
+}
+.footer .wow p {
+  font-size: 1.3rem;
+}
+.footer .hey {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.footer .hey h4 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.footer .how {
+  margin-top: 10px;
+}
+.footer .how h4 {
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.footer .why {
+  margin-top: 10px;
+}
+.footer .why h4 {
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
 @media (max-width: 1200px) {
   #hero {
     width: 100%;
