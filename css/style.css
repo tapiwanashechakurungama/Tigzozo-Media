@@ -528,7 +528,7 @@ body {
 .footer .wow {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 .footer .wow .shit {
   width: 8rem;
