@@ -222,10 +222,6 @@ body {
   font-weight: 900;
   transition: 0.5s ease;
 }
-#hero .hero-inner-1 button:hover {
-  box-shadow: 0 0 1rem blue;
-  background-color: pink;
-}
 #hero .hero-inner-1 .hero-btns {
   width: auto;
   display: flex;
