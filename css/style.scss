@@ -147,6 +147,11 @@ body{
 
 
 // navbar
+#icon{
+  width: 3rem;
+  height: 3rem;
+  margin-left: 10px;
+}
 .phone-nav{
   display: none;
 }
@@ -1597,4 +1602,13 @@ body{
       color: purple;
     }
   }
+  #icon{
+    background-color: white;
+    border-radius: 52%;
+    border: none;
+  }
+}
+span{
+  font-style: italic;
+  font-size: 1.2rem;
 }
