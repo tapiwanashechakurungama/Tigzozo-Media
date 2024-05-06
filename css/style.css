@@ -539,7 +539,7 @@ body {
   gap: 30px;
 }
 .footer .wow p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .footer .hey {
   margin-top: 10px;
@@ -547,7 +547,7 @@ body {
   flex-direction: column;
 }
 .footer .hey h4 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -556,7 +556,7 @@ body {
 }
 .footer .how h4 {
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 .footer .why {
@@ -564,7 +564,7 @@ body {
 }
 .footer .why h4 {
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 
@@ -907,7 +907,7 @@ body {
 }
 @media (max-width: 376px) {
   header {
-    background-color: #732296;
+    background-color: white;
   }
   header .navbar-toggler-icon {
     width: 30px;
@@ -920,13 +920,7 @@ body {
     width: 30px;
   }
   #hero {
-    color: white;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0)), url(../img/image\ 2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0px;
-    width: 100%;
-    height: 100vh;
+    color: black;
   }
   #hero .hero-inner-1 h1 {
     padding-top: 2vh;

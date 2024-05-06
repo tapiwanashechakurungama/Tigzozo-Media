@@ -656,7 +656,7 @@ body{
      
     }
     p{
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
   }
   .hey{
@@ -664,7 +664,7 @@ body{
     display: flex;
     flex-direction: column;
     h4{
-      font-size: 2rem;
+      font-size: 1.3rem;
       font-weight: bolder;
       text-decoration: underline;
     }
@@ -673,14 +673,14 @@ body{
     margin-top: 10px;
     h4{
       text-decoration: underline;
-      font-size: 2rem;
+      font-size: 1.3rem;
       font-weight: bolder;
     }
   }
   .why{margin-top: 10px;
     h4{
       text-decoration: underline;
-      font-size: 2rem;
+      font-size: 1.3rem;
       font-weight: bolder;
     }
   }
@@ -1277,7 +1277,7 @@ body{
 
   header {
 
-    background-color: #732296;
+    background-color: white;
 
     .navbar-toggler-icon {
       width: 30px;
@@ -1300,16 +1300,16 @@ body{
 
   #hero {
 
-    color: white;
-    background: linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.501),
-        rgba(0, 0, 0, 0)),
-      url(../img/image\ 2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0px;
-    width: 100%;
-    height: 100vh;
+    color: black;
+    // background: linear-gradient(to bottom,
+    //     rgba(0, 0, 0, 0.501),
+    //     rgba(0, 0, 0, 0)),
+    //   url(../img/image\ 2.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // margin-top: 0px;
+    // width: 100%;
+    // height: 100vh;
 
     .hero-inner-1 {
 
