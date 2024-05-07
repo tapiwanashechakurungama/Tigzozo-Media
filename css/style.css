@@ -1137,7 +1137,7 @@ body {
   color: white;
 }
 .dark .navbar .servi {
-  color: purple;
+  color: white !important;
 }
 .dark #icon {
   background-color: white;
