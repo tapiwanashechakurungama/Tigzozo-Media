@@ -247,6 +247,10 @@ body {
   align-items: center;
   gap: 30px;
 }
+#hero .first img {
+  width: 3rem;
+  height: 3rem;
+}
 #hero .first p {
   margin-top: 40px;
 }

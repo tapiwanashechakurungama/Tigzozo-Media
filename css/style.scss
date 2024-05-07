@@ -262,6 +262,10 @@ body{
   display: flex;
   align-items: center;
   gap: 30px;
+  img{
+    width: 3rem;
+    height: 3rem;
+  }
   p{
     margin-top: 40px;
   }
