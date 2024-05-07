@@ -177,7 +177,7 @@ body{
   top: 20;
   height: 3rem;
   width: 3rem;
-  border: 3px purple solid;
+  border: 3px white solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,7 +186,7 @@ body{
   .line{
     width: 90%;
     height: 4px;
-    background-color: purple;
+    background-color: white;
   }
  }
 
@@ -1013,6 +1013,27 @@ body{
   }
   .navbar{
     display: none;
+    display: none !important;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+      display: none;
+    }
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+      justify-content: center;
+      align-items: center;
+      margin-right: 7rem;
+      a{
+        color: white !important;
+      }
+    }
   }
   .phone-nav{
     display: block;
@@ -1593,6 +1614,9 @@ body{
 .dark{
   background-color: black !important;
   color: white !important;
+  p{
+    color: white ;
+  }
   .navbar{
     a{
       color: white;

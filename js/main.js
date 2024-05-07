@@ -7,7 +7,4 @@ console.log(body);
 icon.addEventListener('click', function(event){
         event.preventDefault();
         body.classList.toggle('dark')
-   
-
-
 })
