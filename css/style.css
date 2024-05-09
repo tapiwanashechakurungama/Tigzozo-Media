@@ -244,14 +244,15 @@ body {
   justify-content: center;
   align-items: center;
   background-color: purple;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 #services .digital-inner p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
-  line-height: 40px;
 }
 #services .digital-inner h4 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
 }
 #services .media-inner {
@@ -620,8 +621,19 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .digital-inner {
+    padding: 0 !important;
+  }
   .digital-inner .text {
-    display: none;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+  .digital-inner .text h4 {
+    font-size: 13px !important;
+  }
+  .digital-inner .text p {
+    font-size: 8px !important;
   }
   .navbar {
     display: none;
@@ -756,7 +768,6 @@ body {
   }
   #services .digital-inner .overlay-2 p {
     font-size: 12px;
-    line-height: 20px;
   }
   #services .media-inner {
     height: 30vh;
