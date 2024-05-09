@@ -6,138 +6,6 @@
   font-family: "Jost";
   src: url(../josefin-sans/JosefinSans-Bold.ttf);
 }
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-  overflow-x: hidden;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 body {
   font-family: "Jost";
 }
@@ -200,7 +68,7 @@ body {
 }
 #hero .hero-inner-1 h1 {
   font-size: 46px;
-  padding-bottom: 3vh;
+  padding-bottom: 2vh;
 }
 #hero .hero-inner-1 p {
   font-size: 22px;
@@ -245,14 +113,16 @@ body {
 #hero .first {
   display: flex;
   align-items: center;
-  gap: 30px;
+  text-align: center;
+  gap: 10px;
 }
 #hero .first img {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
+  margin-top: -15px;
 }
 #hero .first p {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #about {
@@ -351,7 +221,7 @@ body {
   padding-top: 140%;
 }
 #services .events-inner p {
-  display: none;
+  display: block;
   line-height: 40px;
 }
 #services .events-inner h4 {
@@ -785,6 +655,11 @@ body {
     right: 20px;
     top: 20px;
   }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0 !important;
+  }
   header .navbar-toggler-icon {
     border: 2px solid black;
     margin-right: -30vw;
@@ -925,11 +800,23 @@ body {
   #socials p {
     font-size: 16px;
   }
-  #footer h4 {
-    font-size: 12px;
+  .footer .wow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  #footer p {
-    font-size: 12px;
+  .footer .wow .images {
+    display: flex;
+    gap: 40px;
+  }
+  .footer .wow .images img {
+    width: 1.5rem;
+    height: 2rem;
+  }
+  .footer .wow p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
   }
 }
 @media (max-width: 376px) {
@@ -981,7 +868,7 @@ body {
     display: none;
   }
   #hero .hero-images {
-    display: none;
+    display: flex;
   }
   #about {
     margin-top: 2vh;
@@ -1106,28 +993,6 @@ body {
   #socials .socials-btn button {
     font-size: 12px;
     padding: 5px 20px;
-  }
-  #footer .row {
-    padding: 20px 5px;
-  }
-  #footer .footer-logo img {
-    width: 80px;
-  }
-  #footer .icons .fb img {
-    width: 10px;
-  }
-  #footer .icons .ig img {
-    width: 20px;
-  }
-  #footer .location img {
-    width: 10px;
-  }
-  #footer h4 {
-    font-size: 12px;
-  }
-  #footer p {
-    font-size: 8px;
-    line-height: 10px;
   }
 }
 .dark {
