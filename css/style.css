@@ -622,7 +622,7 @@ body {
 }
 @media (max-width: 768px) {
   .digital-inner {
-    padding: 0 !important;
+    padding: 9px !important;
   }
   .digital-inner .text {
     display: flex !important;
