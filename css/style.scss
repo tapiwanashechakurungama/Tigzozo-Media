@@ -11,7 +11,67 @@
 body{
   font-family: 'Jost';
 }
+#footer{
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  background-color: purple;
+  color: white;
+  .fa-tw-lo{
+      width: 125px;
+      p{
+          font-size: 10px;
+      }
+      img{
+          width: 78px;
+      }
+      .icons {
+          margin-top: 8px;
+          .cone{
+              font-size: 18px;
+          }
+          .cone1{
+              font-size: 18px;
+              margin-left: 6px;
+          }
+      }
+  }
+  h3{
+      font-size: 18px;
+  }
 
+  p{
+      font-size: 10px;
+      margin-top: 8px;
+  }
+  .about{
+      margin-top: 11px;
+      height: 123px;
+      width: 159px;
+  }
+  .line{
+   
+      margin-top: 16px;
+      width: 71px;
+  }
+  .line3{
+      width: 100px;
+      margin-top: 18px;
+      
+     
+  }
+  .line2{
+      width: 100px;
+      margin-top: 19px;
+      
+  }
+}
 
 
 // navbar
@@ -80,7 +140,7 @@ body{
 
     p {
       font-size: 22px;
-      padding-bottom: 40px;
+      // padding-bottom: 40px;
     }
 
    .purple{
@@ -131,16 +191,14 @@ body{
   display: flex;
   align-items: center;
   text-align: center;
+  height: 50px;
   gap: 10px;
   
   img{
     width: 2rem;
     height: 2rem;
-    margin-top: -15px;
   }
-  p{
-    margin-top: 20px;
-  }
+
 }
 
 }
@@ -510,60 +568,27 @@ body{
   }
 
 }
-
-// footer
-.footer{
-  background-color: purple;
-  padding: 4%;
-  margin-top: 3%;
-  color: white;
-  .wow{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-     .shit{
-        width: 8rem;
-        height: 4rem;
-      }
-    .images{
-      display: flex;
-      gap: 30px;
-     
+ #footer{
+  padding: 40px;
+    a{
+      text-decoration: none;
+      color: white;
     }
     p{
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
-  }
-  .hey{
-   margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    h4{
-      font-size: 1.3rem;
-      font-weight: bolder;
+    h3{
       text-decoration: underline;
-    }
+      font-size: 1.6rem;
+   }
+   .tigright{
+    font-size: 1.2rem !important;
+   }
   }
-  .how{
-    margin-top: 10px;
-    h4{
-      text-decoration: underline;
-      font-size: 1.3rem;
-      font-weight: bolder;
-    }
-  }
-  .why{margin-top: 10px;
-    h4{
-      text-decoration: underline;
-      font-size: 1.3rem;
-      font-weight: bolder;
-    }
-  }
-}
-
 // media queries
 
 @media (max-width: 1200px) {
+ 
 
   #hero {
 
@@ -863,29 +888,61 @@ body{
   }
   
 
-  #footer {
-
-    h4 {
-      font-size: 16px;
-    }
-
-    p {
-      font-size: 14px;
-    }
-
-    .location {
-
-      img {
-        width: 20px;
-      }
-
-    }
-
-  }
-
 }
 
 @media(max-width: 768px) {
+  #footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    .fa-tw-lo{
+       
+        p{
+            font-size: 12px;
+        }
+        img{
+            width: 78px;
+        }
+    }
+    h3{
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .tigright{
+      font-size:  12px !important; ;
+    }
+
+    p{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .about{
+        height: 119px;
+      
+    }
+    .line{
+        margin-top: 20px;
+        width: 82px;
+    }
+    .line3{
+        width: 110px;
+        margin-top: 20px;
+    }
+    .line2{
+        width: 103px;
+        margin-top: 20px;
+    }
+}
   .digital-inner{padding: 9px !important;
   .text{
     display: flex !important;
@@ -1171,26 +1228,6 @@ body{
       font-size: 16px;
     }
   }
- .footer{
-  .wow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .images{
-      display: flex;
-      gap: 40px;
-      img{
-        width: 1.5rem;
-        height: 2rem;
-      }
-    }
-    p{
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-    }
-  }
- }
  
 }
 

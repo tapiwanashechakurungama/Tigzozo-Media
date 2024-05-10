@@ -10,6 +10,63 @@ body {
   font-family: "Jost";
 }
 
+#footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  background-color: purple;
+  color: white;
+}
+#footer .fa-tw-lo {
+  width: 125px;
+}
+#footer .fa-tw-lo p {
+  font-size: 10px;
+}
+#footer .fa-tw-lo img {
+  width: 78px;
+}
+#footer .fa-tw-lo .icons {
+  margin-top: 8px;
+}
+#footer .fa-tw-lo .icons .cone {
+  font-size: 18px;
+}
+#footer .fa-tw-lo .icons .cone1 {
+  font-size: 18px;
+  margin-left: 6px;
+}
+#footer h3 {
+  font-size: 18px;
+}
+#footer p {
+  font-size: 10px;
+  margin-top: 8px;
+}
+#footer .about {
+  margin-top: 11px;
+  height: 123px;
+  width: 159px;
+}
+#footer .line {
+  margin-top: 16px;
+  width: 71px;
+}
+#footer .line3 {
+  width: 100px;
+  margin-top: 18px;
+}
+#footer .line2 {
+  width: 100px;
+  margin-top: 19px;
+}
+
 #icon {
   width: 3rem;
   height: 3rem;
@@ -72,7 +129,6 @@ body {
 }
 #hero .hero-inner-1 p {
   font-size: 22px;
-  padding-bottom: 40px;
 }
 #hero .hero-inner-1 .purple {
   height: 3rem;
@@ -114,15 +170,12 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  height: 50px;
   gap: 10px;
 }
 #hero .first img {
   width: 2rem;
   height: 2rem;
-  margin-top: -15px;
-}
-#hero .first p {
-  margin-top: 20px;
 }
 
 #about {
@@ -396,53 +449,22 @@ body {
   margin-top: 10vh;
 }
 
-.footer {
-  background-color: purple;
-  padding: 4%;
-  margin-top: 3%;
+#footer {
+  padding: 40px;
+}
+#footer a {
+  text-decoration: none;
   color: white;
 }
-.footer .wow {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+#footer p {
+  font-size: 1.2rem;
 }
-.footer .wow .shit {
-  width: 8rem;
-  height: 4rem;
-}
-.footer .wow .images {
-  display: flex;
-  gap: 30px;
-}
-.footer .wow p {
-  font-size: 1rem;
-}
-.footer .hey {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-}
-.footer .hey h4 {
-  font-size: 1.3rem;
-  font-weight: bolder;
+#footer h3 {
   text-decoration: underline;
+  font-size: 1.6rem;
 }
-.footer .how {
-  margin-top: 10px;
-}
-.footer .how h4 {
-  text-decoration: underline;
-  font-size: 1.3rem;
-  font-weight: bolder;
-}
-.footer .why {
-  margin-top: 10px;
-}
-.footer .why h4 {
-  text-decoration: underline;
-  font-size: 1.3rem;
-  font-weight: bolder;
+#footer .tigright {
+  font-size: 1.2rem !important;
 }
 
 @media (max-width: 1200px) {
@@ -610,17 +632,55 @@ body {
   #socials .socials-inner {
     gap: 1vw;
   }
-  #footer h4 {
-    font-size: 16px;
-  }
-  #footer p {
-    font-size: 14px;
-  }
-  #footer .location img {
-    width: 20px;
-  }
 }
 @media (max-width: 768px) {
+  #footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+  }
+  #footer a {
+    text-decoration: none;
+    color: white;
+  }
+  #footer .fa-tw-lo p {
+    font-size: 12px;
+  }
+  #footer .fa-tw-lo img {
+    width: 78px;
+  }
+  #footer h3 {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  #footer .tigright {
+    font-size: 12px !important;
+  }
+  #footer p {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  #footer .about {
+    height: 119px;
+  }
+  #footer .line {
+    margin-top: 20px;
+    width: 82px;
+  }
+  #footer .line3 {
+    width: 110px;
+    margin-top: 20px;
+  }
+  #footer .line2 {
+    width: 103px;
+    margin-top: 20px;
+  }
   .digital-inner {
     padding: 9px !important;
   }
@@ -810,24 +870,6 @@ body {
   }
   #socials p {
     font-size: 16px;
-  }
-  .footer .wow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer .wow .images {
-    display: flex;
-    gap: 40px;
-  }
-  .footer .wow .images img {
-    width: 1.5rem;
-    height: 2rem;
-  }
-  .footer .wow p {
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
   }
 }
 @media (max-width: 376px) {
