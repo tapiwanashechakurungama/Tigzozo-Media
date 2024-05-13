@@ -98,7 +98,7 @@ body {
 
 .hamburger {
   display: block;
-  position: fixed;
+  position: absolute;
   right: 20px;
   top: 20;
   height: 3rem;
@@ -115,7 +115,7 @@ body {
   width: 90%;
   height: 4px;
   background-color: purple;
-  border-radius: 20px;
+  border-radius: 40px;
 }
 
 #hero {
@@ -715,9 +715,6 @@ body {
     display: block;
     margin-left: 40%;
   }
-  .navbar #icon {
-    margin-left: 40%;
-  }
   .navbar ul {
     display: flex;
     flex-direction: column;
@@ -1059,6 +1056,10 @@ body {
   }
 }
 .dark {
+  background-color: black !important;
+  color: white !important;
+}
+.dark .active {
   background-color: black !important;
   color: white !important;
 }

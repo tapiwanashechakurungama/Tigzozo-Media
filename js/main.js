@@ -14,5 +14,5 @@ const nav = document.getElementById("nav");
 
 
 ham.onclick = function(event){
-        body.classList.toggle("active")
+body.classList.toggle("active")
 }
