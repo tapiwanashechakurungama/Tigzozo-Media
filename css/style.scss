@@ -72,6 +72,12 @@ body{
       
   }
 }
+.active{
+  .navbar{
+    display: block !important;
+    transition: .5s;
+  }
+}
 
 
 // navbar
@@ -88,9 +94,6 @@ body{
   ul{
     gap: 80px;
     display: flex;
-    .servi{
-      color: purple;
-    }
   }
   a{
     text-decoration: none;
@@ -111,10 +114,12 @@ body{
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+  border-radius: 5px;
   .line{
     width: 90%;
     height: 4px;
     background-color: purple;
+    border-radius: 20px;
   }
  }
  
@@ -960,13 +965,19 @@ body{
     display: none;
     display: none !important;
     height: 100vh;
-    background-color: purple;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black !important;
+    transition: all ease .5s;
     img{
-      display: none;
+      display: block;
+      margin-left: 40%;
+    }
+    #icon{
+      margin-left: 40%;
     }
     ul{
       display: flex;
@@ -976,7 +987,7 @@ body{
       align-items: center;
       margin-right: 7rem;
       a{
-        color: white !important;
+        color: black !important;
       }
     }
   }
@@ -1516,12 +1527,10 @@ body{
     color: white ;
   }
   .navbar{
+    transition: all ease .5s;
     a{
       color: white;
       
-    }
-    .servi{
-      color: white !important;
     }
   }
   #icon{
