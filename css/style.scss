@@ -76,6 +76,8 @@ body{
   .navbar{
     display: block !important;
     transition: .5s;
+    height: 100vh;
+    overflow: visible;
   }
 }
 
@@ -962,27 +964,19 @@ body{
   }  
   }
   .navbar{
-    display: none;
     display: none !important;
-    height: 100vh;
+    height: 0;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: black !important;
     transition: all ease .5s;
-    img{
-      display: block;
-      margin-left: 40%;
-    }
+    overflow: hidden;
     ul{
       display: flex;
       flex-direction: column;
       gap: 80px;
-      justify-content: center;
-      align-items: center;
-      margin-right: 7rem;
+      margin-right: 15rem;
       a{
         color: black !important;
       }
@@ -1542,7 +1536,7 @@ body{
 }
 span{
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 
